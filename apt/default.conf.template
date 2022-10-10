@@ -2,7 +2,7 @@
     listen $PORT default_server;
 
     location / {
-      root   /mycollect;
+      root   /usr/share/nginx/html;
       index  index.html index.htm;
     }
         
